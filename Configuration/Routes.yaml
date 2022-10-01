@@ -1,0 +1,9 @@
+-
+  name: 'Create nodes'
+  uriPattern: 'multiplenodecreation/create'
+  defaults:
+    '@controller': 'Node'
+    '@package': 'NeosRulez.Neos.MultipleNodeCreation'
+    '@action': 'create'
+    '@format': 'json'
+  appendExceedingArguments: true

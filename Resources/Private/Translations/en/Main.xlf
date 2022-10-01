@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+    <file original="" product-name="NeosRulez.Neos.MultipleNodeCreation" source-language="en" datatype="plaintext">
+        <body>
+            <trans-unit id="content.header" xml:space="preserve">
+				<source>Create multiple nodes</source>
+			</trans-unit>
+            <trans-unit id="content.progressHeader" xml:space="preserve">
+				<source>Creating nodes ...</source>
+			</trans-unit>
+            <trans-unit id="content.title" xml:space="preserve">
+				<source>Title</source>
+			</trans-unit>
+            <trans-unit id="content.nodeType" xml:space="preserve">
+				<source>NodeType</source>
+			</trans-unit>
+            <trans-unit id="content.create" xml:space="preserve">
+				<source>Create nodes</source>
+			</trans-unit>
+            <trans-unit id="content.cancel" xml:space="preserve">
+				<source>Cancel</source>
+			</trans-unit>
+            <trans-unit id="content.addMoreLines" xml:space="preserve">
+				<source>Add more lines</source>
+			</trans-unit>
+            <trans-unit id="content.hideNewPages" xml:space="preserve">
+				<source>Hide new pages</source>
+			</trans-unit>
+            <trans-unit id="content.hideNewPagesInMenu" xml:space="preserve">
+				<source>Hide new pages in menus</source>
+			</trans-unit>
+        </body>
+    </file>
+</xliff>

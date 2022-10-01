@@ -1,0 +1,19 @@
+{
+  "description": "Multiple node creation in Neos CMS.",
+  "type": "neos-plugin",
+  "name": "neosrulez/neos-multiplenodecreation",
+  "require": {
+    "neos/neos": "^7.0 || ^8.0",
+    "neos/neos-ui": "^7.0 || ^8.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "NeosRulez\\Neos\\MultipleNodeCreation\\": "Classes/"
+    }
+  },
+  "extra": {
+    "neos": {
+      "package-key": "NeosRulez.Neos.MultipleNodeCreation"
+    }
+  }
+}

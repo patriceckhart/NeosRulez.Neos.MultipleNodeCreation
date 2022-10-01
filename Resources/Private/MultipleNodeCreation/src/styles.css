@@ -1,0 +1,7 @@
+.createMultipleSiteNodeWrapper { border-bottom:1px solid #3f3f3f; border-right:1px solid #3f3f3f; width:100%; }
+.createMultipleSiteNodeWrapper button { width:100%; }
+.row { display: flex; justify-content: space-between; flex-direction: row; margin-top:1px; margin-bottom:1px; }
+.column { width:50%; display:inline-block; line-height: 0; }
+.column:first-child { margin-right:1px; }
+.primaryButton { background: #00a338; }
+.primaryButton:hover, .primaryButton:active, .primaryButton:focus { background: #0bb344 !important; }

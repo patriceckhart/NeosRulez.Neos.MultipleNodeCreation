@@ -1,0 +1,27 @@
+Neos:
+  Flow:
+    mvc:
+      routes:
+        NeosRulez.Neos.MultipleNodeCreation:
+          position: 'start'
+  Neos:
+    Ui:
+      resources:
+        stylesheets:
+          'NeosRulez.Neos.MultipleNodeCreation':
+            resource: '${"resource://NeosRulez.Neos.MultipleNodeCreation/Public/Plugin.css"}'
+        javascript:
+          'NeosRulez.Neos.MultipleNodeCreation':
+            resource: '${"resource://NeosRulez.Neos.MultipleNodeCreation/Public/Plugin.js"}'
+      frontendConfiguration:
+        'NeosRulez.Neos.MultipleNodeCreation:MinimumRows': '${Configuration.setting(''NeosRulez.Neos.MultipleNodeCreation.site.minRows'')}'
+    userInterface:
+      translation:
+        autoInclude:
+          NeosRulez.Neos.MultipleNodeCreation:
+            - Main
+NeosRulez:
+  Neos:
+    MultipleNodeCreation:
+      site:
+        minRows: 5
