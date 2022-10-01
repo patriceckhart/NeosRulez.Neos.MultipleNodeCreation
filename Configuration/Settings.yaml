@@ -4,6 +4,15 @@ Neos:
       routes:
         NeosRulez.Neos.MultipleNodeCreation:
           position: 'start'
+    security:
+      authentication:
+        providers:
+          'Neos.Neos:Backend':
+            requestPatterns:
+              'NeosRulez.Neos.MultipleNodeCreation:Commands':
+                pattern: ControllerObjectName
+                patternOptions:
+                  controllerObjectNamePattern: 'NeosRulez\Neos\MultipleNodeCreation\Controller\.*'
   Neos:
     Ui:
       resources:

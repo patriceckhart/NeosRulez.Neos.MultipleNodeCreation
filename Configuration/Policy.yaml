@@ -3,7 +3,7 @@ privilegeTargets:
     'NeosRulez.Neos.MultipleNodeCreation:NodeControllerActions':
       matcher: 'method(NeosRulez\Neos\MultipleNodeCreation\Controller\NodeController->.*Action())'
 roles:
-  'Neos.Flow:Everybody':
+  'Neos.Neos:AbstractEditor':
     privileges:
       -
         privilegeTarget: 'NeosRulez.Neos.MultipleNodeCreation:NodeControllerActions'

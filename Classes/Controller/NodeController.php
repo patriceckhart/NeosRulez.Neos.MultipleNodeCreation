@@ -24,6 +24,7 @@ class NodeController extends ActionController
     protected $nodeService;
 
     /**
+     * @Flow\SkipCsrfProtection
      * @return void
      */
     public function createAction():void
